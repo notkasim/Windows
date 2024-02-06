@@ -12,8 +12,8 @@ set-alias mv rename-item
 
 
 #Remap #Remap #Remap
-Set-PSReadLineKeyHandler -Chord "tab" -Function AcceptSuggestion #Chooses the whole suggested command.
-set-PSReadlineKeyHandler -chord "alt +l" -Function Forwardword #Chooses the next suggested word. 
+Set-PSReadLineKeyHandler -Chord "alt+k" -Function AcceptSuggestion #Chooses the whole suggested command.
+set-PSReadlineKeyHandler -chord "alt+l" -Function Forwardword #Chooses the next suggested word. 
 
 
 
